@@ -1,197 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="assests/img/favicon.png">
 
-        <!--========== BOX ICONS ==========-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assests/img/favicon.png">
 
-        <!--========== FAVICON ==========-->>
-        <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--========== FAVICON ==========-->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
 
-        <title>CAAMTH</title>
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    </head>
-    <body>
+    <title>CAAMTH</title>
 
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scrolltop__icon'></i>
-        </a>
+</head>
 
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">CAAMTH</a>
+<body>
 
-                <div class="nav__menu" id="nav-menu">                                                                                      
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">¿Quiénes somos?</a></li>
-                        <li class="nav__item"><a href="#cultura" class="nav__link">Cultura del Agua</a></li>
-                        <li class="nav__item"><a href="#transparencia" class="nav__link">Transparencia</a></li>
-                        <li class="nav__item"><a href="#armonizacion" class="nav__link">Armonización Contable</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
 
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-                    </ul>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">CAAMTH</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">¿Quiénes somos?</a></li>
+                    <li class="nav__item"><a href="#cultura" class="nav__link">Cultura del Agua</a></li>
+                    <li class="nav__item"><a href="#transparencia" class="nav__link">Transparencia</a></li>
+                    <li class="nav__item"><a href="#armonizacion" class="nav__link">Armonización Contable</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <a href="#" class="nav__logo">TIZA</a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Comisión de Agua y Alcantarillado</h1>
+                    <h2 class="home__subtitle">Municipio <br> Tizayuca Hidalgo</h2>
+                    <a href="#" class="button">Trámites y Servicios</a>
+                    <a href="#" class="button">Solicita tu Recibo</a>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+                <img src="assets/img/home.png" alt="" class="home__img">
+            </div>
+        </section>
 
-        <main class="l-main">
-            <!--========== HOME ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__data">
-                        <h1 class="home__title">Comisión de Agua y Alcantarillado</h1>
-                        <h2 class="home__subtitle">Municipio <br> Tizayuca Hidalgo</h2>
-                        <a href="#" class="button">Trámites y Servicios</a>
-                        <a href="#" class="button">Solicita tu Recibo</a>
-                    </div>
-    
-                    <img src="assets/img/home.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--========== ABOUT ==========-->
-            <section class="about section bd-container" id="about">
-                <div class="about__container  bd-grid">
-                    <div class="about__data">
-                        <span class="section-subtitle about__initial">¿Quiénes somos?</span>
-                        <h2 class="section-title about__initial">La CAAMTH, <br></h2>
-                        <p class="about__description">es un organismo publico descentralizado cuyos principales objetivos son : planear, programas, estudiar, proyectar, presupuestar, construir, ampliar, administrar, conservar y mejorar los sistemas de agua potable y alcantarillado, tratamiento de aguas residuales, y re-uso de las mismas, así como proporcionar el servicio de agua potable y alcantarillado a todos y cada uno de los habitantes del Municipio de Tizayuca Hidalgo.</p>
-                        <!---<a href="#" class="button">Explore history</a>--->
-                    </div>
-
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">¿Quiénes somos?</span>
+                    <h2 class="section-title about__initial">La CAAMTH, <br></h2>
+                    <p class="about__description">es un organismo publico descentralizado cuyos principales objetivos
+                        son : planear, programas, estudiar, proyectar, presupuestar, construir, ampliar, administrar,
+                        conservar y mejorar los sistemas de agua potable y alcantarillado, tratamiento de aguas
+                        residuales, y re-uso de las mismas, así como proporcionar el servicio de agua potable y
+                        alcantarillado a todos y cada uno de los habitantes del Municipio de Tizayuca Hidalgo.</p>
+                    <!---<a href="#" class="button">Explore history</a>--->
                 </div>
 
-                <div class="about__container">
-                    <div class="about__data">
-                        <h3 class="section-title about__initial">Misión</h3>
-                        <p class="about__description">Administrar, dotar y mantener los servicios básicos de agua potable, alcantarillado y saneamiento
-                            para los habitantes del Municipio de Tizayuca, Hidalgo, logrando con esto un mejor
-                            aprovechamiento integral de este recurso, regulando y conservando su calidad, promoviendo el
-                            uso eficiente del agua e impulsando una cultura que considere a este elemento como un recurso
-                            vital y escaso para preservar el equilibrio ecológico.</p>
-                    </div>
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+            </div>
 
+            <div class="about__container">
+                <div class="about__data">
+                    <h3 class="section-title about__initial">Misión</h3>
+                    <p class="about__description">Administrar, dotar y mantener los servicios básicos de agua potable,
+                        alcantarillado y saneamiento
+                        para los habitantes del Municipio de Tizayuca, Hidalgo, logrando con esto un mejor
+                        aprovechamiento integral de este recurso, regulando y conservando su calidad, promoviendo el
+                        uso eficiente del agua e impulsando una cultura que considere a este elemento como un recurso
+                        vital y escaso para preservar el equilibrio ecológico.</p>
                 </div>
 
-                <div class="about__container">
-                    <div class="about__data">
-                        <h3 class="section-title about__initial">Visión</h3>
-                        <p class="about__description">Ser un Organismo normativo y regulador de los recursos hídricos en beneficio de los habitantes
-                            del Municipio de Tizayuca, Hidalgo, destinando los recursos para ampliar y mejorar los servicios
-                            en forma integral, proyectando una imagen de transparencia y honestidad y fomentar la cultura
-                            del agua para garantizar su sustentabilidad.</p>
-                    </div>
+            </div>
 
-                </div>
-            </section>
-
-            <!--========== ABOUT ==========-->
-            <section class="cultura section bd-container" id="cultura">
-                <div class="about__container  bd-grid">
-                    <div class="about__data">
-                        <span class="section-subtitle about__initial">Cultura del agua</span>
-                        <h2 class="section-title about__initial"><br></h2>
-                        <p class="about__description"></p>
-                        <!---<a href="#" class="button">Explore history</a>--->
-                    </div>
-
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
-                </div>
-            </section>
-
-            <!--========== TRANSPARENCIA ==========-->
-            <section class="transparecia section bd-container" id="transparencia">
-                <span class="section-subtitle">Transparencia</span>
-                <h2 class="section-title"></h2>
-
-                <div class="services__container  bd-grid">
-                    <div class="services__content">
-                        <img src="assets/img/2017.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-                
-                    <div class="services__content">
-                        <img src="assets/img/2018.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-
+            <div class="about__container">
+                <div class="about__data">
+                    <h3 class="section-title about__initial">Visión</h3>
+                    <p class="about__description">Ser un Organismo normativo y regulador de los recursos hídricos en
+                        beneficio de los habitantes
+                        del Municipio de Tizayuca, Hidalgo, destinando los recursos para ampliar y mejorar los servicios
+                        en forma integral, proyectando una imagen de transparencia y honestidad y fomentar la cultura
+                        del agua para garantizar su sustentabilidad.</p>
                 </div>
 
-                <div class="services__container  bd-grid">
-                    <div class="services__content">
-                        <img src="assets/img/2019.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-                
-                    <div class="services__content">
-                        <img src="assets/img/2020.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
+            </div>
+        </section>
 
-                </div>
-            </section>
-
-            <!--========== ARMONIZACION ==========-->
-            <section class="armonizacion section bd-container" id="armonizacion">
-                <span class="section-subtitle">Armonización Contable</span>
-                <h2 class="section-title"></h2>
-                
-                <div class="services__container  bd-grid">
-                    <div class="services__content">
-                        <img src="assets/img/contable1.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-                
-                    <div class="services__content">
-                        <img src="assets/img/contable2.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-                    
+        <!--========== ABOUT ==========-->
+        <section class="cultura section bd-container" id="cultura">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial">Cultura del agua</span>
+                    <h2 class="section-title about__initial"><br></h2>
+                    <p class="about__description"></p>
+                    <!---<a href="#" class="button">Explore history</a>--->
                 </div>
 
-                <div class="services__container  bd-grid">
-                    <div class="services__content">
-                        <img src="assets/img/contable3.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-                
-                    <div class="services__content">
-                        <img src="assets/img/contable4.svg" alt="" class="about__img">
-                        <h3 class="services__title"></h3>
-                        <p class="services__description"></p>
-                    </div>
-                    
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+            </div>
+
+        </section>
+
+        <!--========== TRANSPARENCIA ==========-->
+        <section class="transparecia section bd-container" id="transparencia">
+            <span class="section-subtitle">Transparencia</span>
+            <h2 class="section-title"></h2>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+                    <img src="assets/img/2017.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
                 </div>
 
-            </section>
+                <div class="services__content">
+                    <img src="assets/img/2018.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
 
-            
-            <!--===== APP =======-->
-            <section class="app section bd-container">
-                <div class="app__container bd-grid">
-                    <!---
+            </div>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+                    <img src="assets/img/2019.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
+
+                <div class="services__content">
+                    <img src="assets/img/2020.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--========== ARMONIZACION ==========-->
+        <section class="armonizacion section bd-container" id="armonizacion">
+            <span class="section-subtitle">Armonización Contable</span>
+            <h2 class="section-title"></h2>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+                    <img src="assets/img/contable1.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
+
+                <div class="services__content">
+                    <img src="assets/img/contable2.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
+
+            </div>
+
+            <div class="services__container  bd-grid">
+                <div class="services__content">
+                    <img src="assets/img/contable3.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
+
+                <div class="services__content">
+                    <img src="assets/img/contable4.svg" alt="" class="about__img">
+                    <h3 class="services__title"></h3>
+                    <p class="services__description"></p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--===== APP =======-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <!---
                     <div class="app__data">
                         <span class="section-subtitle app__initial">App</span>
                         <h2 class="section-title app__initial">App is aviable</h2>
@@ -201,80 +212,115 @@
                             <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
                         </div>
                     </div>
-                    
-
                     <img src="assets/img/movil-app.png" alt="" class="app__img">
                     --->
+            </div>
+        </section>
+
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Contactanos via</span>
+                    <h2 class="section-title contact__initial">FACEBOOK</h2>
+                    <p class="contact__description"></p>
                 </div>
-            </section>
 
-            <!--========== CONTACT US ==========-->
-            <section class="contact section bd-container" id="contact">
-                <div class="contact__container bd-grid">
-                    <div class="contact__data">
-                        <span class="section-subtitle contact__initial">Contactanos via</span>
-                        <h2 class="section-title contact__initial">FACEBOOK</h2>
-                        <p class="contact__description"></p>
-                    </div>
-
-                    <div class="contact__button">
-                        <a href="#" class="button">Contactanos</a>
-                    </div>
+                <div class="contact__button">
+                    <a href="#" class="button">Contactanos</a>
+                    <a href="#" class="button">Buzón de Quejas</a>
                 </div>
-            </section>
-        </main>
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer section bd-container">
-            <div class="footer__container bd-grid">
+            </div>
+
+            <div class="contact__container-map">
+                <div class="contact__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15011.131265789789!2d-98.976508!3d19.8491404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf29de6762e881b8!2sComision%20de%20Agua%20y%20Alcantarillado%20Municipio%20Tizayuca%20Hidalgo!5e0!3m2!1sen!2smx!4v1612884289715!5m2!1sen!2smx"
+                        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">CAAMTH</a>
+                <span class="footer__description">Comisión de Agua y Alcantarillado
+                    Municipio <br> Tizayuca Hidalgo</span>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Servicios</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Trámites y Servicios</a></li>
+                    <li><a href="#" class="footer__link">Solicita tu Recibo</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Información</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Privacy policy</a></li>
+                    <li><a href="#" class="footer__link">Terms of services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Dirección</h3>
+                <ul>
+                    <li>Avenida Juárez Norte 39.</li>
+                    <li>C.P. 43800</li>
+                    <li>Tizayuca, Hgo.</li>
+                    <li>779 - 796 - 7993</li>
+                </ul>
+            </div>
+
+            <div class="brand_container">
                 <div class="footer__content">
-                    <a href="#" class="footer__logo">CAAMTH</a>
-                    <span class="footer__description">Comisión de Agua y Alcantarillado
-                                                    Municipio <br> Tizayuca Hidalgo</span>
-                    <div>
-                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
-                    </div>
+                    <img class="logo__contact1" src="assets/img/caamth.png" alt="">
                 </div>
+            </div>
 
+            <div class="brand_container">
                 <div class="footer__content">
-                    <h3 class="footer__title">Servicios</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">Trámites y Servicios</a></li>
-                        <li><a href="#" class="footer__link">Solicita tu Recibo</a></li>
-                    </ul>
+                    <img class="logo__contact2" src="assets/img/glifo.png" alt="">
                 </div>
+            </div>
 
+            <div class="brand_container">
                 <div class="footer__content">
-                    <h3 class="footer__title">Información</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">Privacy policy</a></li>
-                        <li><a href="#" class="footer__link">Terms of services</a></li>
-                    </ul>
+                    <img class="logo__contact3" src="assets/img/INAI.png" alt="">
                 </div>
+            </div>
 
+            <div class="brand_container">
                 <div class="footer__content">
-                    <h3 class="footer__title">Dirección</h3>
-                    <ul>
-                        <li>Avenida Juárez Norte 39.</li>
-                        <li>C.P. 43800</li>
-                        <li>Tizayuca, Hgo.</li>
-                        <li>779 - 796 - 7993</li>
-                    </ul>
+                    <img class="logo__contact4" src="assets/img/tiza.png" alt="">
                 </div>
-
             </div>
 
             <div>
-                <p class="footer__copy">&#169; <br> CAAMTH. All right reserved</p>
+                <p class="footer__copy">&#169; CAAMTH. All right reserved</p>
             </div>
 
 
-        </footer>
+    </footer>
 
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-    </body>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

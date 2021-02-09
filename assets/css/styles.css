@@ -227,7 +227,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: rgba(7, 146, 201, 0.5);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -408,6 +408,11 @@ img{
   margin-bottom: var(--mb-3);
 }
 
+.contact__container-map {
+  text-align: center;
+  margin-top: 50px;
+}
+
 /*========== FOOTER ==========*/
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -454,6 +459,7 @@ img{
   color: var(--text-color-light);
   margin-top: 3.5rem;
 }
+
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
@@ -564,4 +570,47 @@ img{
   content: "";
   display: table;
   clear: both; 
+}
+
+.maps{
+  text-align: center;
+  margin-top: 20px;
+  height: 100%;
+}
+
+.logos { 
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto; 
+  width: 200px; 
+  margin: .5vw; 
+}
+
+@media screen and (max-width: 400px) {
+  .footer__content .logos { margin: 0; }
+  
+}
+
+.logo__contact4 {
+  width: 80%;
+}
+
+.logo__contact3 {
+  width: 70%;
+}
+
+.logo__contact2 {
+  width: 50%;
+}
+
+.logo__contact1 {
+  width: 50%;
+}
+
+.brand__container{
+  display: inline-grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 3px;
+  align-items: center;
 }
