@@ -13,6 +13,8 @@
   --text-color-light: #A6A6A6;
   --body-color: #FBFEFD;
   --container-color: #FFFFFF;
+  --head-color: #0477bf;
+  --caamth-color: #FBFEFD; 
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -68,6 +70,8 @@ body.dark-theme{
   --text-color: #C7D1CC;
   --body-color: #242c31;
   --container-color: #003136;
+  --head-color: #F1F3F2;
+  --caamth-color: #0477bf;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -257,19 +261,28 @@ img{
 
 .home__title{
   font-size: 30pt;
-  color: var(--first-color);
+  color: var(--caamth-color);
   margin-bottom: var(--mb-1);
 }
 
 .home__subtitle{
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--head-color);
   margin-bottom: var(--mb-4);
 }
 
 .home__img{
   width: 300px;
   justify-self: center;
+}
+
+section.home{
+  background-image: url(../img/bg3.jpg);
+  background-color: #cccccc; 
+  height: auto; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 
 /*========== BUTTONS ==========*/
