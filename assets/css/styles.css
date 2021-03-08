@@ -277,7 +277,7 @@ img{
 }
 
 section.home{
-  background-image: url(../img/bg3.jpg);
+  background-image: url(../img/bg1.jpg);
   background-color: #cccccc; 
   height: auto; 
   background-position: center; 
@@ -425,6 +425,14 @@ section.home{
 .contact__container-map {
   text-align: center;
   margin-top: 50px;
+}
+
+a.facebook-link{
+  background: var(--first-color);
+}
+
+a.facebook-link:hover{
+  color: #003136;
 }
 
 /*========== FOOTER ==========*/
