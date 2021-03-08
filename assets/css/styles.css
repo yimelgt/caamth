@@ -277,7 +277,7 @@ img{
 }
 
 section.home{
-  background-image: url(../img/bg1.jpg);
+  background-image: url(../img/bg3.jpg);
   background-color: #cccccc; 
   height: auto; 
   background-position: center; 
@@ -640,7 +640,7 @@ a.facebook-link:hover{
 .facebook {
   position: fixed; 
   right:25px; /*Margen derecho*/
-  bottom:20px; /*Margen abajo*/
+  bottom:80px; /*Margen abajo*/
   z-index:999;
  }
  .facebook img {
